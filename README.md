@@ -63,27 +63,26 @@ npm install
 npm run dev
 
 
-Architecture Overview
+## Architecture Overview
 - Single shared database with tenant discriminator
 - JWT authentication with tenant-aware access
 - RBAC for fine-grained permissions
 - Usage metering for billing events
 - Audit logs for all critical actions
 
-Workflows
+## Workflows
 
-Tenant Onboarding:
+### Tenant Onboarding:
 Signup → Tenant Created → Admin User → Plan Assigned → Stripe Customer → Dashboard Access
 
-User Invitation:
+### User Invitation:
 Admin Invites → Email Sent → Accept → Role Assigned
 
-Billing:
+### Billing:
 Plan Selected → Stripe Checkout → Webhook → Subscription Activated
 
-Usage Tracking:
+### Usage Tracking:
 Action → Event Logged → Aggregated → Billed
 
-Contributing
-
+### Contributing
 Contributions are welcome! Please fork the repo and create pull requests. Ensure all features are tenant-aware, secure, and tested.
