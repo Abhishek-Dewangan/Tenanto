@@ -43,16 +43,16 @@ It provides a **ready-to-use foundation**, so developers can focus on business f
 
 ## Getting Started
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/your-username/multi-tenant-saas.git
 
-# 2. Navigate into the project directory
+### 2. Navigate into the project directory
 cd multi-tenant-saas
 
-# 3. Install dependencies
+### 3. Install dependencies
 npm install
 
-# 4. Configure environment variables (DB, JWT, Stripe keys)
+### 4. Configure environment variables (DB, JWT, Stripe keys)
 # Create a .env file and add necessary keys
 # Example:
 # DATABASE_URL=postgres://user:password@localhost:5432/dbname
