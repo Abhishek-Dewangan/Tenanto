@@ -53,13 +53,13 @@ cd multi-tenant-saas
 npm install
 
 ### 4. Configure environment variables (DB, JWT, Stripe keys)
-# Create a .env file and add necessary keys
-# Example:
-# DATABASE_URL=postgres://user:password@localhost:5432/dbname
-# JWT_SECRET=your_jwt_secret
-# STRIPE_SECRET_KEY=your_stripe_key
+- Create a .env file and add necessary keys
+- Example:
+- DATABASE_URL=postgres://user:password@localhost:5432/dbname
+- JWT_SECRET=your_jwt_secret
+- STRIPE_SECRET_KEY=your_stripe_key
 
-# 5. Run the development server
+### 5. Run the development server
 npm run dev
 
 
